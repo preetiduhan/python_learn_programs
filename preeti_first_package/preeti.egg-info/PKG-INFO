@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: preeti
+Version: 0.1
+Summary: hello world
+Home-page: https://github.com/preetiduhan/preeti
+Author: Preeti Duhan
+Author-email: prtduhan@gmail.com
+License: UNKNOWN
+Description: to create a new package
+        
+         python setup.py sdist
+        
+        to Upload
+        
+         python -m twine upload dist/*
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

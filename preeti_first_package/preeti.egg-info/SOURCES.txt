@@ -1,0 +1,7 @@
+README.md
+preeti
+setup.py
+preeti.egg-info/PKG-INFO
+preeti.egg-info/SOURCES.txt
+preeti.egg-info/dependency_links.txt
+preeti.egg-info/top_level.txt
