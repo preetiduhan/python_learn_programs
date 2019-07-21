@@ -1,6 +1,5 @@
-# python_learn_programs
-Python_basics
-This is a python tutorial.
+# Daily Learnings:
+
 It will contain basic concepts and simple program codes to understand python.
 
 1)testdata =[ ['9034968', 'ETH'], ['14160113', 'ETH'], ['9034968', 'ETH'], ['11111', 'NOT'], ['9555269', 'NOT'], ['15724032', 'ETH'], ['15481740', 'ETH'], ['15481757', 'ETH'], ['15481724', 'ETH'], ['10307528', 'ETH'], ['15481757', 'ETH'], ['15481724', 'ETH'], ['15481740', 'ETH'], ['15379365', 'ETH'], ['11111', 'NOT'], ['9555269', 'NOT'], ['15379365', 'ETH']
