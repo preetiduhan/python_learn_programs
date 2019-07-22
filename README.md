@@ -57,6 +57,30 @@ for ele in enumerate(l1):
 (2, 'repeat')
 
 -----------------------------------------------------------------------------------------------------------------------------------
+
+Python — List Sorting, Keys & Lambdas: https://medium.com/@johngrant/python-list-sorting-keys-lambdas-1903b2a4c949
+
+lst = [('candy','30','100'), ('apple','10','200'), ('baby','20','300')]
+lst.sort(key=lambda x:x[1])
+print(lst)
+
+It will print as following:
+
+[('apple', '10', '200'), ('baby', '20', '300'), ('candy', '30', '100')]
+
+ sort() — A method that modifies the list in-place
+ sorted() — A built-in function that builds a new sorted list from an iterable
+
+In Python, anonymous function is a function that is defined without a name.
+
+While normal functions are defined using the def keyword, in Python anonymous functions are defined using the lambda keyword.
+Syntax of Lambda Function in python
+
+lambda arguments: expression
+
+Lambda functions can have any number of arguments but only one expression. The expression is evaluated and returned. 
+-----------------------------------------------------------------------------------------------------------------------------------
+
     
 
 
