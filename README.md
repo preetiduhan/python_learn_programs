@@ -79,6 +79,7 @@ Syntax of Lambda Function in python
 lambda arguments: expression
 
 Lambda functions can have any number of arguments but only one expression. The expression is evaluated and returned. 
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
     
