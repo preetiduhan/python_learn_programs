@@ -83,6 +83,21 @@ lambda arguments: expression
 
 Lambda functions can have any number of arguments but only one expression. The expression is evaluated and returned. 
 
+Lambda functions are used along with built-in functions like filter(), map() etc.
+
+The filter() function in Python takes in a function and a list as arguments.
+
+The function is called with all the items in the list and a new list is returned which contains items for which the function evaluats to True.
+my_list = [1, 5, 4, 6, 8, 11, 3, 12]
+
+new_list = list(filter(lambda x: (x%2 == 0) , my_list))
+
+# Output: [4, 6, 8, 12]
+print(new_list)
+
+
+ 
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
     
