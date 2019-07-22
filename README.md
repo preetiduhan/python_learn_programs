@@ -35,5 +35,28 @@ print(p)
 ['p','r','e','e','t','i']
 
 -----------------------------------------------------------------------------------------------------------------------------------
+A lot of times when dealing with iterators, we also get a need to keep a count of iterations
+
+enumerate(iterable, start=0)
+
+Parameters:
+Iterable: any object that supports iteration
+Start: the index value from which the counter is 
+              to be started, by default it is 0 
+
+>>> l1 = ["eat","sleep","repeat"]
+>>> print(list(enumerate(l1))
+... )
+[(0, 'eat'), (1, 'sleep'), (2, 'repeat')]
+>>> 
+for ele in enumerate(l1): 
+    print ele 
+
+(0, 'eat')
+(1, 'sleep')
+(2, 'repeat')
+
+-----------------------------------------------------------------------------------------------------------------------------------
+    
 
 
