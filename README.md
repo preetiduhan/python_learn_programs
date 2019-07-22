@@ -45,9 +45,10 @@ Start: the index value from which the counter is
               to be started, by default it is 0 
 
 >>> l1 = ["eat","sleep","repeat"]
->>> print(list(enumerate(l1))
-... )
+
+>>> print(list(enumerate(l1)))
 [(0, 'eat'), (1, 'sleep'), (2, 'repeat')]
+
 >>> 
 for ele in enumerate(l1): 
     print ele 
@@ -61,7 +62,9 @@ for ele in enumerate(l1):
 Python — List Sorting, Keys & Lambdas: https://medium.com/@johngrant/python-list-sorting-keys-lambdas-1903b2a4c949
 
 lst = [('candy','30','100'), ('apple','10','200'), ('baby','20','300')]
+
 lst.sort(key=lambda x:x[1])
+
 print(lst)
 
 It will print as following:
