@@ -1,17 +1,19 @@
 # Daily Learnings:
 
-1)testdata =[ ['9034968', 'ETH'], ['14160113', 'ETH'], ['9034968', 'ETH'], ['11111', 'NOT'], ['9555269', 'NOT'], ['15724032', 'ETH'], ['15481740', 'ETH'], ['15481757', 'ETH'], ['15481724', 'ETH'], ['10307528', 'ETH'], ['15481757', 'ETH'], ['15481724', 'ETH'], ['15481740', 'ETH'], ['15379365', 'ETH'], ['11111', 'NOT'], ['9555269', 'NOT'], ['15379365', 'ETH']
+1)
+```
+testdata =[ ['9034968', 'ETH'], ['14160113', 'ETH'], ['9034968', 'ETH'], ['11111', 'NOT'], ['9555269', 'NOT'], ['15724032', 'ETH'], ['15481740', 'ETH'], ['15481757', 'ETH'], ['15481724', 'ETH'], ['10307528', 'ETH'], ['15481757', 'ETH'], ['15481724', 'ETH'], ['15481740', 'ETH'], ['15379365', 'ETH'], ['11111', 'NOT'], ['9555269', 'NOT'], ['15379365', 'ETH']
 ]
 unique_data = [list(x) for x in set(tuple(x) for x in testdata)]
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 2)
-
+```
 array = [['a','b'], ['a', 'b','c'], ['a']]
 output = ['a','b','c']
 
 result = set(x for l in array for x in l)
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 3)Flatten list of lists:
 
@@ -43,7 +45,7 @@ Parameters:
 Iterable: any object that supports iteration
 Start: the index value from which the counter is 
               to be started, by default it is 0 
-
+```
 >>> l1 = ["eat","sleep","repeat"]
 
 >>> print(list(enumerate(l1)))
@@ -56,11 +58,12 @@ for ele in enumerate(l1):
 (0, 'eat')
 (1, 'sleep')
 (2, 'repeat')
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 
 Python — List Sorting, Keys & Lambdas: https://medium.com/@johngrant/python-list-sorting-keys-lambdas-1903b2a4c949
 
+```
 lst = [('candy','30','100'), ('apple','10','200'), ('baby','20','300')]
 
 lst.sort(key=lambda x:x[1])
@@ -70,7 +73,7 @@ print(lst)
 It will print as following:
 
 [('apple', '10', '200'), ('baby', '20', '300'), ('candy', '30', '100')]
-
+```
  sort() — A method that modifies the list in-place
  sorted() — A built-in function that builds a new sorted list from an iterable
 
@@ -88,7 +91,7 @@ Lambda functions are used along with built-in functions like filter(), map() etc
 The filter() function in Python takes in a function and a list as arguments.
 
 The function is called with all the items in the list and a new list is returned which contains items for which the function evaluats to True.
-
+```
 my_list = [1, 5, 4, 6, 8, 11, 3, 12]
 
 new_list = list(filter(lambda x: (x%2 == 0) , my_list))
@@ -96,20 +99,20 @@ new_list = list(filter(lambda x: (x%2 == 0) , my_list))
 print(new_list)
 
 [4, 6, 8, 12]
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 
 Convert all strings in a list to int
 
 
 Use the map function (in Python 2.x):
-
+```
 results = map(int, results)
 
 In Python 3, you will need to convert the result from map to a list:
 
 results = list(map(int, results))
-
+```
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
