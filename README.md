@@ -99,10 +99,47 @@ print(new_list)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
- 
+Convert all strings in a list to int
+
+
+Use the map function (in Python 2.x):
+
+results = map(int, results)
+
+In Python 3, you will need to convert the result from map to a list:
+
+results = list(map(int, results))
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
+The reduce(fun,seq) function is used to apply a particular function passed in its argument to all of the list elements mentioned in the sequence passed along.This function is defined in “functools” module.
+
+Working : 
+
+    At first step, first two elements of sequence are picked and the result is obtained.
+    Next step is to apply the same function to the previously attained result and the number just succeeding the second element and the result is again stored.
+    This process continues till no more elements are left in the container.
+    The final returned result is returned and printed on console.
+    
+from functools import reduce # only in Python 3
+
+def do_sum(x1, x2): return x1 + x2
+
+print(reduce(do_sum, [1, 2, 3, 4]))
+
+This reduce()  call perform the following operation:
+
+(((1 + 2) + 3) + 4) => 10
+1
+	
+(((1 + 2) + 3) + 4) => 10
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
     
 
 
