@@ -139,6 +139,22 @@ This reduce()  call perform the following operation:
 ```
 
 -----------------------------------------------------------------------------------------------------------------------------------
+creating a dictionary of lists
+
+defaultdict:
+
+>>> from collections import defaultdict
+>>> d = defaultdict(list)
+>>> a = ['1', '2']
+>>> for i in a:
+...   for j in range(int(i), int(i) + 2):
+...     d[j].append(i)
+...
+>>> d
+defaultdict(<type 'list'>, {1: ['1'], 2: ['1', '2'], 3: ['2']})
+>>> d.items()
+[(1, ['1']), (2, ['1', '2']), (3, ['2'])]
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
