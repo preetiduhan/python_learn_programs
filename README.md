@@ -181,7 +181,7 @@ Returns true if all of the items are True (or if the iterable is empty). All can
 
 -----------------------------------------------------------------------------------------------------------------------------------
 How do I initialize a dictionary of empty lists in Python?
-
+```
 p={i:[] for i in 'abcdefghijklmnopqrstuvwxyz'}
 
 data = {k: [] for k in range(2)}
@@ -190,7 +190,7 @@ from collections import defaultdict
 data = defaultdict(list)
 
 d = {k : v for k in blah blah blah}
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 
     
