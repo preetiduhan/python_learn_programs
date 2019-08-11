@@ -180,6 +180,19 @@ All
 Returns true if all of the items are True (or if the iterable is empty). All can be thought of as a sequence of AND operations on the provided iterables. It also short circuit the execution i.e. stop the execution as soon as the result is known.
 
 -----------------------------------------------------------------------------------------------------------------------------------
+How do I initialize a dictionary of empty lists in Python?
+
+p={i:[] for i in 'abcdefghijklmnopqrstuvwxyz'}
+
+data = {k: [] for k in range(2)}
+
+from collections import defaultdict
+data = defaultdict(list)
+
+d = {k : v for k in blah blah blah}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
     
 
 
