@@ -27,6 +27,20 @@ import itertools
 list2d = [[1,2,3],[4,5,6], [7], [8,9]]
 merged = list(itertools.chain(*list2d))
 
+Create list of lists:
+
+
+Create your list before your loop, else it will be created every loop.
+```
+>>> list1 = []
+>>> for i in range(10) :
+...   list1.append( range(i,10) )
+...
+>>> list1
+[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [1, 2, 3, 4, 5, 6, 7, 8, 9], [2, 3, 4, 5, 6, 7, 8, 9], [3, 4, 5, 6, 7, 8, 9], [4, 5, 6, 7, 8, 9], [5, 6, 7, 8, 9], [6, 7, 8, 9], [7, 8, 9], [8, 9], [9]]
+
+```
+
 -----------------------------------------------------------------------------------------------------------------------------------
 4)a="preeti"
 
