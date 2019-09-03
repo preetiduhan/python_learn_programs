@@ -212,16 +212,18 @@ Create list of tuples in list:
 >>> zipped = zip(x, y)
 >>> zipped
 [(1, 4), (2, 5), (3, 6)]
+```
 In Python 3:
-
+```
 z = list(zip(x,y))
-
+```
 In Python 2:
-z = zip(x,y)```
-
+```
+z = zip(x,y)
+```
 -----------------------------------------------------------------------------------------------------------------------------------
-
 To take 2-3 integer inputs in single in python:
+
 ```
 a,b=map(int, raw_input().split())
 ```
