@@ -228,6 +228,13 @@ To take 2-3 integer inputs in single in python:
 a,b=map(int, raw_input().split())
 ```
 -----------------------------------------------------------------------------------------------------------------------------------
+Exponential notation in python:
+
+let's see with examples:
+```
+10e9+7 -------------10000000009+7
+```
+number in exponential form is float by default,to use it as integer we need to typecast it.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
