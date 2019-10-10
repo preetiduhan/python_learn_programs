@@ -237,6 +237,17 @@ let's see with examples:
 number in exponential form is float by default,to use it as integer we need to typecast it.
 
 -----------------------------------------------------------------------------------------------------------------------------------
+from collections import deque
+deque.pop()----pop from right
+deque.popleft()----pop from left
+deque.append()-----push from right
+deque.appendleft()--push form left side
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
